@@ -1,0 +1,44 @@
+Daniel Carlos de Siqueira Santos - RA: 109681
+Gabriel Tadeu Geromel - RA: 108818
+Gustavo Consoni - RA: 110471
+Heduardo Gabriel Costa - RA: 109439
+Lucas Cortez Sanches - RA: 110434
+Lucimara Oliveira - RA: 106246
+Matheus Brandão Cazarin - RA: 110312
+
+-----------------------------------------------------------------------------------------------------------------
+PARA EXECUÇÃO:
+Para execução do programa os arquivos hearder.h, main.c, operac.c e economia.txt 
+devem estar em uma mesma pasta, e compilição apenas do arquivo main.c é suficiente
+para o programa funcionar.
+
+
+------------------------------------------------------------------------------------------------------------------
+Header.h
+
+Declaração de todas as funções e da estrutura
+struct, quicksort, quicksortdois e busca binária.
+
+
+------------------------------------------------------------------------------------------------------------------
+Operac.c
+
+Todas as funções para a execução do código estão neste arquivo
+importa o header.h
+quicksort
+quicksortdois
+busca binária
+
+------------------------------------------------------------------------------------------------------------------
+Main.c
+
+Responsável pela orientação do código e qual as funções chama em determinado momento.
+importa o operac.c
+faz a leitura de dados do economia.txt e passa para a struct Pibs
+
+Primeiramente o print é todos os valores, depois é chamada a função quicksort para 
+organização por ordem crescente do Pib, novamente ocorre o print aonde mostra-se os 
+anos que ocorreram os maiores e menores crescimento do Pib
+Após isso pode-se procurar o ano que deseja saber o Pib.
+
+
